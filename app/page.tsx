@@ -16,12 +16,12 @@ export default function HomePage() {
 			<div className="max-w-7xl w-full">
 				<FloatingNav navItems={navItems} />
 				<Hero />
-				{/* <Grid />
-				<Projects /> */}
-				{/* <Testimonials />
+				<Grid />
+				{/* <Projects /> */}
+				<Testimonials />
 				<Experience />
 				<Approach />
-				<Footer /> */}
+				<Footer />
 			</div>
 		</main>
 	);
