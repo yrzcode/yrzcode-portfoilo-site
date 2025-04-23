@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import * as THREE from "three";
 import { useMemo, useRef } from "react";
 import { cn } from "@/lib/utils";
