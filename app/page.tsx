@@ -18,9 +18,9 @@ export default function HomePage() {
 				<Hero />
 				{/* <Grid /> */}
 				<Projects />
-				{/* <Testimonials />
+				<Testimonials />
 				<Experience />
-				<Approach />
+				{/* <Approach />
 				<Footer /> */}
 			</div>
 		</main>
