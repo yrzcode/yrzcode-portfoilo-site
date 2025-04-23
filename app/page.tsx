@@ -20,8 +20,8 @@ export default function HomePage() {
 				<Projects />
 				<Testimonials />
 				<Experience />
-				{/* <Approach />
-				<Footer /> */}
+				<Approach />
+				<Footer />
 			</div>
 		</main>
 	);
