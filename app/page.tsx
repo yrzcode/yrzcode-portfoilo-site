@@ -18,10 +18,10 @@ export default function HomePage() {
 				<Hero />
 				<Grid />
 				<Projects />
-				<Testimonials />
+				{/* <Testimonials />
 				<Experience />
 				<Approach />
-				<Footer />
+				<Footer /> */}
 			</div>
 		</main>
 	);
