@@ -1,3 +1,5 @@
+"use client";
+
 import { cn } from "@/lib/utils";
 import { GridGlobe } from "../../../ui/Globe/GridGlobe";
 import { Skills } from "./SkillsCell";
