@@ -1,0 +1,41 @@
+.project-cards {
+  @apply flex-center flex-wrap p-4 gap-x-20 gap-y-36;
+}
+
+.project-card__pin {
+  @apply flex-center h-[20rem] lg:min-h-[20rem] w-[80vw] sm:w-96;
+}
+
+.project-card__pin-img-container {
+  @apply flex-center flex-col relative w-[80vw] sm:w-96 h-[20vh] overflow-hidden mb-4;
+}
+
+.project-card__pin-img-inner {
+  @apply wh-full relative overflow-hidden lg:rounded-3xl bg-[#13162d];
+}
+
+.project-card__pin-img {
+  @apply absolute bottom-0 z-10;
+}
+
+.project-card__pin-title {
+  @apply font-bold text-base line-clamp-1 md:text-xl lg:text-2xl;
+}
+
+.project-card__pin-content {
+  @apply font-light lg:font-normal text-sm line-clamp-2;
+}
+
+.project-card__pin-action {
+  @apply flex items-center justify-between mt-7 mb-3;
+  text {
+    @apply text-sm md:text-xs text-purple;
+  }
+}
+
+.project-card__pin-icons {
+  @apply flex items-center;
+  .icon {
+    @apply flex-center bg-black-200 rounded-full w-10 h-10;
+  }
+}

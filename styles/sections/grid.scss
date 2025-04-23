@@ -1,0 +1,71 @@
+.background-grid {
+  @apply h-screen w-full dark:bg-black-100 bg-white 
+    dark:bg-grid-white/[0.05] bg-grid-black/[0.2] flex items-center justify-center 
+    absolute top-0 left-0;
+}
+
+.background-grid__fade {
+  @apply absolute pointer-events-none inset-0 flex items-center justify-center 
+    dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)];
+}
+
+.bento-grid-container {
+  @apply grid md:auto-rows-[10rem] grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-7xl mx-auto mb-4;
+}
+
+.bento-grid-item {
+  @apply relative row-span-1 overflow-hidden rounded-3xl hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4;
+  background: rgb(1, 2, 24);
+  background: linear-gradient(
+    30deg,
+    rgba(1, 2, 24, 1) 0%,
+    rgba(22, 4, 75, 1) 100%,
+    rgba(31, 31, 182, 1) 100%,
+    rgba(31, 31, 182, 1) 100%,
+    rgba(0, 212, 255, 1) 100%,
+    rgba(15, 14, 103, 1) 100%
+  );
+}
+
+.bento-grid-item__img {
+  @apply h-full w-full absolute;
+  img {
+    @apply object-cover object-center;
+  }
+}
+
+.bento-grid-item__imgSpare {
+  @apply absolute right-0;
+  img {
+    @apply object-cover object-center;
+  }
+}
+
+.bento-grid-item-contents {
+  @apply group-hover/bento:translate-x-2 duration-200 relative md:h-full min-h-20 flex flex-col p-5 lg:p-10;
+  margin: 0 !important;
+}
+
+.bento-grid-item-contents__title {
+  @apply z-10 mb-4 font-sans text-lg md:text-xl lg:text-2xl text-neutral-600 dark:text-blue-300;
+}
+
+.bento-grid-item-contents__description {
+  @apply z-10 font-sans font-extralight text-[#c1c2d3] text-sm dark:text-neutral-300 md:text-xs lg:text-base;
+}
+
+.bento-grid-item-contents-words__container {
+  @apply flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2;
+}
+
+.bento-grid-item-contents-words__col-container {
+  @apply flex flex-col gap-3;
+}
+
+.bento-grid-item-contents-words__item {
+  @apply py-2 px-3 text-xs opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E];
+}
+
+.bento-grid-item-contents-words__item--blank {
+  @apply py-4 px-3 rounded-lg text-center bg-[#10132e];
+}

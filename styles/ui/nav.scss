@@ -1,0 +1,30 @@
+.nav-container {
+  @apply flex-center inline-flex p-[1px] overflow-hidden max-w-fit fixed top-10 
+  inset-x-0 
+  mx-auto border border-blue-300
+  rounded-full dark:bg-blue-950
+  shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000];
+
+  .links {
+    @apply flex-center sm:gap-4 px-2 sm:px-4 md:px-10 py-1 
+    rounded-full m-0 w-full h-full bg-[#39094f] z-10;
+
+    .link {
+      @apply relative dark:text-neutral-50 items-center sm:flex space-x-1 text-neutral-600 
+      dark:hover:text-neutral-300 
+      hover:text-neutral-500 
+      hover:bg-cyan-800 
+      p-1 pr-2 rounded-full;
+
+      .icon {
+        @apply block sm:hidden;
+      }
+
+      .text {
+        @apply text-sm md:text-base 
+        text-purple hover:text-white
+        !cursor-pointer;
+      }
+    }
+  }
+}

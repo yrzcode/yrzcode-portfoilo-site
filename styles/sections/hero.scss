@@ -1,0 +1,11 @@
+.hero-container {
+  @apply pb-20 pt-36;
+
+  .words {
+    @apply flex justify-center relative my-20 z-10;
+
+    .sub-words {
+      @apply text-center md:tracking-wider mb-10 text-sm md:text-lg lg:text-2xl;
+    }
+  }
+}

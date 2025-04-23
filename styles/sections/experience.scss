@@ -1,0 +1,27 @@
+.works {
+  @apply w-full mt-12 grid grid-cols-1 lg:grid-cols-4 gap-10;
+
+  .button {
+    @apply flex-1 text-white border-neutral-200 dark:border-slate-800;
+
+    .thumbnail-container {
+      @apply flex lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2;
+
+      .thumbnail {
+        @apply w-16 md:w-20 lg:w-32;
+      }
+
+      .title-container {
+        @apply lg:m-5;
+
+        .title {
+          @apply text-start text-xl md:text-2xl font-bold;
+        }
+
+        .desc {
+          @apply text-start text-white-100 mt-1 font-semibold;
+        }
+      }
+    }
+  }
+}
