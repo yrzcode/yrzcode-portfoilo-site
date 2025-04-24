@@ -76,7 +76,7 @@ export const BentoGridItem = (props: BentoGridItemProps) => {
 				{id === 2 && <GridGlobe />}
 
 				{/* WORDS */}
-				{/* {id === 3 && <Skills />} */}
+				{id === 3 && <Skills />}
 
 				{/* ANIMATION */}
 				{/* {id === 6 && <ContactCell />} */}
