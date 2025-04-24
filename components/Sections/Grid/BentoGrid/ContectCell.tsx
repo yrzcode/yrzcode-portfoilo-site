@@ -17,10 +17,10 @@ export const ContactCell = () => {
 
 	return (
 		<>
-			{/* <BackgroundGradientAnimation /> */}
+			<BackgroundGradientAnimation />
 
 			<div className="relative">
-				<div className="absolute ring-0 -bottom-2">
+				{/* <div className="absolute ring-0 -bottom-2">
 					<Lottie
 						options={{
 							loop: copied,
@@ -33,7 +33,7 @@ export const ContactCell = () => {
 						isClickToPauseDisabled={true}
 						style={{ cursor: "auto" }}
 					/>
-				</div>
+				</div> */}
 
 				<MagicButton
 					title={copied ? "Email Copied" : "Copy My Email"}
