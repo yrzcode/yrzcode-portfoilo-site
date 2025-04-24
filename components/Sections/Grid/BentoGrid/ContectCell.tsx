@@ -11,7 +11,7 @@ export const ContactCell = () => {
 	const [copied, setCopied] = useState(false);
 
 	function handleCopy(): void {
-		// navigator.clipboard.writeText("yang123@example.com");
+		navigator.clipboard.writeText("yangrenzhengwork.gmail.com");
 		setCopied(true);
 	}
 
