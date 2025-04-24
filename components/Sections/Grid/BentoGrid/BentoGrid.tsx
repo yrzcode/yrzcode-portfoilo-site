@@ -73,7 +73,7 @@ export const BentoGridItem = (props: BentoGridItemProps) => {
 				<div className="bento-grid-item-contents__title">{title}</div>
 
 				{/* GLOBE EFFECT */}
-				{/* {id === 2 && <GridGlobe />} */}
+				{id === 2 && <GridGlobe />}
 
 				{/* WORDS */}
 				{/* {id === 3 && <Skills />} */}
