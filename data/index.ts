@@ -11,18 +11,19 @@ export const gridItems: BentoGridItemProps[] = [
 	{
 		id: 1,
 		itemId: "",
-		title: "",
+		title: "Focused on delivering great user experiences",
 		description: "",
 		className: "md:row-span-1 md:col-span-1 lg:row-span-2 lg:col-span-2",
 		imgClassName: "w-full h-full",
-		titleClassName: "justify-end",
+		titleClassName:
+			"justify-start max-w-[10rem] md:max-w-[14rem] !text-yellow-200",
 		img: "/b1.svg",
 		spareImg: "",
 	},
 	{
 		id: 2,
 		itemId: "",
-		title: "flexible with time zone communications",
+		title: "Flexible with time zone communications",
 		description: "",
 		className: "md:row-span-1 md:col-span-2 lg:row-span-1 lg:col-span-1",
 		imgClassName: "",
@@ -33,7 +34,7 @@ export const gridItems: BentoGridItemProps[] = [
 	{
 		id: 3,
 		itemId: "",
-		title: "My tech stack",
+		title: "Explore My Tech Stack",
 		description: "I constantly try to improve",
 		className: "md:row-span-2 md:col-span-2 lg:row-span-1 lg:col-span-1",
 		imgClassName: "",

@@ -120,6 +120,8 @@ const FirstCellEffect = ({
 	className,
 	img,
 	imgClassName,
+	title,
+	titleClassName,
 }: BentoGridItemProps) => {
 	return (
 		<div
@@ -133,6 +135,13 @@ const FirstCellEffect = ({
 		>
 			{/* 动态描边效果 */}
 			<AnimatedBorder />
+
+			{/* TITLE */}
+			<div className="bento-grid-item-contents">
+				<div className={cn(titleClassName, "bento-grid-item-contents__title")}>
+					{title}
+				</div>
+			</div>
 
 			{/* 内容 */}
 			<div className="bento-grid-item__img absolute inset-1 !m-auto !w-[calc(100%-0.25rem)] !h-[calc(100%-0.25rem)]">
