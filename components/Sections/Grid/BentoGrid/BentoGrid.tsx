@@ -55,7 +55,7 @@ export const BentoGridItem = (props: BentoGridItemProps) => {
 		return (
 			<FirstCellEffect
 				{...props}
-				className={`${className} border-white border-[0.1rem] sm:border-[0.1rem]`}
+				className={`${className} border-yellow-100 sm:border-white border-[0.1rem] sm:border-[0.1rem]`}
 			/>
 		);
 	}
@@ -66,8 +66,11 @@ export const BentoGridItem = (props: BentoGridItemProps) => {
 			className={cn(
 				"group/bento",
 				"bento-grid-item",
-				id === 2 && "border-blue-300 border-[0.1rem] sm:border-[0.1rem]",
+				"min-h-[8rem]",
+				id === 2 && "border-blue-100 border-[0.1rem] sm:border-[0.1rem]",
+				id === 3 && "sm:border-blue-300 border-[0.1rem] sm:border-[0.1rem]",
 				id === 4 && "border-violet-600 border-[0.1rem] sm:border-[0.1rem]",
+				id === 5 && "sm:border-violet-600 border-[0.1rem] sm:border-[0.1rem]",
 				id === 6 &&
 					"flex-center border-yellow-300 border-[0.1rem] sm:border-[0.1rem]",
 				className,
@@ -122,7 +125,7 @@ const FirstCellEffect = ({
 			className={cn(
 				"group/bento",
 				"bento-grid-item",
-				"min-h-[10rem]",
+				"min-h-[8rem]",
 				className,
 			)}
 		>
