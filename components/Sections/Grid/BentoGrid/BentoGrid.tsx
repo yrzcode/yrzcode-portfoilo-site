@@ -66,7 +66,8 @@ export const BentoGridItem = (props: BentoGridItemProps) => {
 			className={cn(
 				"group/bento",
 				"bento-grid-item",
-				id === 6 && "flex-center",
+				id === 6 &&
+					"flex-center border-yellow-300 border-[0.1rem] sm:border-[0.1rem]",
 				className,
 			)}
 		>
