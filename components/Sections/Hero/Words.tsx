@@ -20,11 +20,12 @@ export const Words = () => {
 				{/* SUB WORDS */}
 				<p className="sub-words">
 					Hi, I'm Rz-Yang. A&nbsp;
-					<span className="text-yellow-400">Software Engineer</span>&nbsp;
-					specializing in&nbsp;
-					<span className="text-violet-400">modern web technologies</span> and
-					creating <span className="text-green-400">intuitive user</span>
-					&nbsp;experiences.
+					<span className="text-yellow-400">Software Engineer</span>
+					&nbsp;specializing in
+					<br />
+					<span className="text-blue-600">modern web technologies</span> and
+					creating &nbsp;
+					<span className="text-green-400">intuitive user experiences</span>
 				</p>
 
 				{/* BUTTON */}
