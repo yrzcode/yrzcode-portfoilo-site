@@ -67,8 +67,7 @@ export const gridItems: BentoGridItemProps[] = [
 	{
 		id: 6,
 		itemId: "",
-		title:
-			"Would you be interested in collaborating with me on a challenging and innovative project?",
+		title: "Interested in building a cool project together? Contact me!",
 		description: "",
 		className: "md:row-span-1 md:col-span-2 lg:row-span-1 lg:col-span-1",
 		imgClassName: "",
