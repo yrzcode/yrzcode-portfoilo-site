@@ -5,8 +5,10 @@ export const Words = () => {
 	return (
 		<div className="words">
 			<div className="max-w-[89vw] md:max-w-2xl flex flex-col items-center">
-				<h2 className="uppercase tracking-widest text-center text-blue-100 max-w-80">
-					Explore My Web Dev Craft World!!
+				<h2 className="uppercase tracking-widest text-center text-blue-100 max-w-96">
+					Explore&nbsp;
+					<span className="font-bold text-indigo-600">My Web Dev Craft </span>
+					World
 				</h2>
 
 				{/* TEXT EFFECT */}
