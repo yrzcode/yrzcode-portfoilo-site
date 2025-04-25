@@ -1,5 +1,5 @@
 .hero-container {
-  @apply pb-20 pt-36;
+  @apply pb-20 pt-24 sm:pt-36;
 
   .words {
     @apply flex justify-center relative md:my-20 z-10;
