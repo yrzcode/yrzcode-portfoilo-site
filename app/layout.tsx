@@ -6,8 +6,9 @@ import { ThemeProvider } from "next-themes";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Rz-Yang Dev",
-	description: "portfolio site of Renzheng Yang",
+	title: "rz-yang web development",
+	description:
+		"A portfolio site showcasing the works and projects of Renzheng Yang, focused on web application development and user experience.",
 };
 
 export default function RootLayout({
