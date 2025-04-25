@@ -90,7 +90,7 @@ export const projects = [
 		id: 2,
 		title: "Art Mart - Creativity Comes to Life.",
 		des: "Art Mart is a minimal, user-friendly platform for showcasing and selling original art and handmade crafts.",
-		img: "/p2.svg",
+		img: "/images/art-mart.jpg",
 		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
 		link: "#",
 	},
