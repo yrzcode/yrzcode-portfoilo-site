@@ -1,23 +1,27 @@
 import { FaLocationArrow } from "react-icons/fa";
 import { MagicButton } from "../../ui/MagicButton";
 export const Contents = () => {
-  return (
-    <div className="footer-contents-container">
-      <h1 className="heading title">
-        Ready to take <span className="text-purple">your</span> digital presence
-        to the next level
-      </h1>
-      <p className="desc">
-        Reach out to me today and let&apos;s discuss
-        <br className="md:hidden" /> how I can help you achieve your goals.
-      </p>
-      <a href="mailto:yrzcode@example.com">
-        <MagicButton
-          title="Let's get in touch"
-          icon={<FaLocationArrow />}
-          position="right"
-        />
-      </a>
-    </div>
-  );
+	return (
+		<div className="footer-contents-container">
+			<h1 className="heading title">
+				<span className="text-blue-100">Ready</span>
+				&nbsp;to&nbsp;
+				<span className="text-yellow-300">contribute</span>
+				&nbsp;to your team and drive&nbsp;
+				<span className="text-violet-600">impactful digital </span>
+				<span className="text-yellow-300">solutions</span>
+			</h1>
+			<p className="desc">
+				Let’s connect to explore how my skills and experience
+				<br className="md:hidden" /> can support your goals.
+			</p>
+			<a href="mailto:yangrenzhengwork@gmail.com">
+				<MagicButton
+					title="Let's get in touch"
+					icon={<FaLocationArrow />}
+					position="right"
+				/>
+			</a>
+		</div>
+	);
 };
