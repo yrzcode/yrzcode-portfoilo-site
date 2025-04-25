@@ -66,6 +66,7 @@ export const BentoGridItem = (props: BentoGridItemProps) => {
 			className={cn(
 				"group/bento",
 				"bento-grid-item",
+				id === 2 && "border-blue-300 border-[0.1rem] sm:border-[0.1rem]",
 				id === 6 &&
 					"flex-center border-yellow-300 border-[0.1rem] sm:border-[0.1rem]",
 				className,
@@ -90,7 +91,7 @@ export const BentoGridItem = (props: BentoGridItemProps) => {
 
 				{/* TITLE */}
 				<div
-					className={`bento-grid-item-contents__title ${id === 5 ? "text-yellow-500" : ""}`}
+					className={`bento-grid-item-contents__title ${id === 5 ? "!text-yellow-500" : ""}`}
 				>
 					{title}
 				</div>
