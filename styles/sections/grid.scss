@@ -1,12 +1,12 @@
 .background-grid {
-  @apply h-screen w-full dark:bg-black-100 bg-white 
-    dark:bg-grid-white/[0.05] bg-grid-black/[0.2] flex items-center justify-center 
+  @apply h-screen w-full bg-black-100
+    bg-grid-white/[0.05] flex items-center justify-center 
     absolute top-0 left-0;
 }
 
 .background-grid__fade {
   @apply absolute pointer-events-none inset-0 flex items-center justify-center 
-    dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)];
+    bg-black-100 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)];
 }
 
 .bento-grid-container {
@@ -47,7 +47,7 @@
 }
 
 .bento-grid-item-contents__title {
-  @apply z-10 mb-4 font-sans text-lg md:text-xl lg:text-2xl text-neutral-600 dark:text-blue-300;
+  @apply z-10 mb-4 font-sans text-lg md:text-xl lg:text-2xl text-blue-300;
 }
 
 .bento-grid-item-contents__description {

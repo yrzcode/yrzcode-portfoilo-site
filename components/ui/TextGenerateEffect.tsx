@@ -45,7 +45,7 @@ export const TextGenerateEffect = ({
 										? "text-blue-400"
 										: idx === 2
 											? "text-yellow-400"
-											: "dark:text-white text-black"
+											: "text-white"
 							} opacity-0`}
 							style={{
 								filter: filter ? "blur(10px)" : "none",
