@@ -57,7 +57,7 @@ export const gridItems: BentoGridItemProps[] = [
 		id: 5,
 		itemId: "",
 		title: "Currently looking for a project that offers innovative challenges",
-		description: "The Inside Scoop",
+		description: "What's New",
 		className: "md:row-span-2 md:col-span-1 lg:row-span-1 lg:col-span-1",
 		imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
 		titleClassName: "justify-center md:justify-start lg:justify-center",
