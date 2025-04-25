@@ -163,22 +163,22 @@ export const companies = [
 export const workExperience = [
 	{
 		id: 1,
-		title: "Frontend Engineer Intern",
+		title: "Frontend Engineer",
 		desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
 		className: "md:col-span-2",
 		thumbnail: "/exp1.svg",
 	},
 	{
 		id: 2,
-		title: "Mobile App Dev - JSM Tech",
-		desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+		title: "Full Stack Engineer",
+		desc: "Develops and maintains end-to-end web applications, covering both front-end and back-end systems.",
 		className: "md:col-span-2", // change to md:col-span-2
 		thumbnail: "/exp2.svg",
 	},
 	{
 		id: 3,
-		title: "Freelance App Dev Project",
-		desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+		title: "Freelance Web Application Development",
+		desc: "Built and launched custom web applications from scratch, providing end-to-end solutions including design, development, and deployment.",
 		className: "md:col-span-2", // change to md:col-span-2
 		thumbnail: "/exp3.svg",
 	},
