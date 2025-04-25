@@ -196,13 +196,16 @@ export const socialMedia = [
 	{
 		id: 1,
 		img: "/git.svg",
+		href: "https://github.com/yrzcode",
 	},
 	{
 		id: 2,
 		img: "/twit.svg",
+		href: "https://x.com/rz_yang_work",
 	},
 	{
 		id: 3,
 		img: "/link.svg",
+		href: "https://www.linkedin.com/in/yangrenzheng/",
 	},
 ];

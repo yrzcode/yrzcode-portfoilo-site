@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { socialMedia } from "@/data";
 
 export const Copyright = () => {
@@ -7,9 +8,9 @@ export const Copyright = () => {
 				Copyright © {new Date().getFullYear()} Renzheng Yang.
 			</p>
 			<div className="social-media">
-				{socialMedia.map(({ id, img }) => {
+				{socialMedia.map(({ id, img, href }) => {
 					return (
-						<div key={id}>
+						<Link href={href} key={id}>
 							<img
 								src={img}
 								alt={img}
@@ -17,7 +18,7 @@ export const Copyright = () => {
 								height={20}
 								width={20}
 							/>
-						</div>
+						</Link>
 					);
 				})}
 			</div>
