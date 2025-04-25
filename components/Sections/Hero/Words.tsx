@@ -14,13 +14,17 @@ export const Words = () => {
 				{/* TEXT EFFECT */}
 				<TextGenerateEffect
 					className="text-center text-[40px] md:text-5xl lg:text-6xl"
-					words="Web Dev Works By Rz.Yang"
+					words="Web Development Works By Rz.Yang"
 				/>
 
 				{/* SUB WORDS */}
 				<p className="sub-words">
-					Hi, I'm Yang. I'm a web developer with a strong passion for front-end
-					development
+					Hi, I'm Rz-Yang. A&nbsp;
+					<span className="text-yellow-400">Software Engineer</span>&nbsp;
+					specializing in&nbsp;
+					<span className="text-violet-400">modern web technologies</span> and
+					creating <span className="text-green-400">intuitive user</span>
+					&nbsp;experiences.
 				</p>
 
 				{/* BUTTON */}
