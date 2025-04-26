@@ -9,7 +9,7 @@ export const Cards = () => {
 		<>
 			<div className="cards-container">
 				<Card
-					title="Planning & Strategy"
+					title="Planning and Strategy"
 					description="The process begins with understanding the client’s vision, goals, and specific requirements. Clear communication ensures a strong foundation for the project."
 					icon={<AceternityIcon order="phase 1" />}
 				>
